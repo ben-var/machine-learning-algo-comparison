@@ -1,5 +1,3 @@
-src github link: https://github.gatech.edu/bvargas3/ml-supervised-learning
-
 Overview: The entire program was generated in python==3.6.5, and sklearn/numpy/etc were all installed
 using the default pip command (e.g., pip install sklearn, etc...).
 
