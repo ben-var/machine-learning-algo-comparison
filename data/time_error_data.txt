@@ -1,0 +1,31 @@
+~~~~~ BANK DATASET ~~~~~
+
+TRAINING TIME
+{'Decision Tree': {'train': 0.045845985412597656, 'query': 0.0009980201721191406},
+ 'KNN (euclidean distance)': {'train': 0.15957307815551758, 'query': 4.870979309082031},
+ 'SVC (rbf kernel)': {'train': 341.43528985977173, 'query': 2.4604227542877197},
+ 'Neural Net': {'train': 4.398269891738892, 'query': 0.002989053726196289},
+ 'AdaBoost': {'train': 0.8596792221069336, 'query': 0.034906864166259766}}
+
+ERROR RATES
+{'Decision Tree': {'train': 0.098330804248861869, 'test': 0.10023670793882},
+ 'KNN (euclidean distance)': {'train': 0.097814871016691951, 'test': 0.10155984462248124},
+ 'SVC (rbf kernel)': {'train': 0.10054628224582696, 'test': 0.10015173585821791},
+ 'Neural Net': {'train': 0.099180576631259454, 'test': 0.10072833211944643},
+ 'AdaBoost': {'train': 0.099696509863429483, 'test': 0.099192765234280111}}
+
+~~~~~ LETTER DATASET ~~~~~
+
+TRAINING TIME
+{'Decision Tree': {'train': 0.09178328514099121, 'query': 0.0009953975677490234},
+ 'KNN': {'train': 0.021941184997558594, 'query': 0.48069000244140625},
+ 'SVC (rbf kernel)': {'train': 21.158469438552856, 'query': 0.9853363037109375},
+ 'Neural Net': {'train': 116.14555072784424, 'query': 0.07779121398925781},
+ 'AdaBoost': {'train': 11.01054048538208, 'query': 0.2782580852508545}}
+
+ERROR RATES
+{'Decision Tree': {'train': 0.0, 'test': 0.1281374999999999},
+ 'KNN': {'train': 0.0, 'test': 0.093599999999999794},
+ 'SVC (rbf kernel)': {'train': 0.021687499999999971, 'test': 0.061362499999999875},
+ 'Neural Net': {'train': 0.033312499999999967, 'test': 0.070587500000000247},
+ 'AdaBoost': {'train': 0.0, 'test': 0.035137499999999933}}
