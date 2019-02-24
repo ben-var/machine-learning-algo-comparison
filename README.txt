@@ -56,6 +56,6 @@ at the end of the analysis.
 
 A combination of python scripts and Excel were used to clean the data. Most of the
 data cleaning code was written by me in the util.py file. Some of load_data.csv
-was adapted from starter code in the CS6601 course.
+was adapted from starter code in the CS6601 course for educational use.
 
 Sklearn code was adapted from the sklearn documentation or otherwise coded from scratch.
